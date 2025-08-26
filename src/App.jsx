@@ -7,8 +7,8 @@ import StateFuncation from "./StateFuncationComponent";
 import Toggle from "./Toggle";
 import GetValueShowInput from "./GetValueShowInput";
 import FormHandlingUsingControllComponent from "./FormHandlingUsingControllComponent";
-import HandleCheckBox from "./HandleCheckBox.Jsx";
 import RadioButtonDropdownMenu from "./RadioButtonDropdownMenu";
+import LoopUsingMap from "./LoopUsingMap";
 
 
 function App() {
@@ -24,7 +24,8 @@ function App() {
       {/* <GetValueShowInput/> */}
       {/* <FormHandlingUsingControllComponent /> */}
        {/* <HandleCheckBox/> */}
-       <RadioButtonDropdownMenu/>
+       {/* <RadioButtonDropdownMenu/> */}
+       {/* <LoopUsingMap/> */}
 
     </div>
   );
