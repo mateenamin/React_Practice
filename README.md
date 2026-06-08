@@ -1,12 +1,46 @@
-# React + Vite
+# Shopply 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini e-commerce web app built with React, Redux Toolkit, and Tailwind CSS.
 
-Currently, two official plugins are available:
+##  Live Demo
+[Click here to view](https://your-vercel-link.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React 19
+- Redux Toolkit + RTK Query
+- React Router v6
+- Tailwind CSS v4
+- FakeStoreAPI
 
-## Expanding the ESLint configuration
+##  Features
+- Browse real products from FakeStoreAPI
+- Search products by name
+- Filter by category
+- Add to Cart / Remove from Cart
+- Quantity control
+- Wishlist (save products)
+- Login / Logout (fake auth)
+- Protected Cart page
+- LocalStorage — cart persists on reload
+- 404 page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Folder Structure
+src/
+├── pages/
+├── components/
+├── store/
+├── api/
+├── context/
+└── hooks/
+
+##  Run Locally
+```bash
+git clone https://github.com/mateenamin/shop-app.git
+cd shop-app
+npm install
+npm run dev
+```
+
+
+
+
